@@ -1,0 +1,117 @@
+* {
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+ 	font-family: -apple-system,system-ui,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+	font-size: 16px;
+	color: #E5EAF3;
+}
+
+html,body {
+	background: #0A0A0A;
+}
+
+/* 超链接 */
+a {
+	color: #409EFF;
+	text-decoration: none;
+}
+
+/* 数学公式 */
+.MathJax_Display {
+	color: white !important;
+}
+.MathJax_Preview {
+	color: white !important;
+}
+
+/* 字体 */
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h1,h2 {
+ 	border-bottom: 1px solid #4C4D4F;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+/* 段落 */
+p {
+}
+
+/* 引用 */
+blockquote {
+}
+
+blockquote p {
+}
+
+/* 列表 */
+ol {
+}
+
+ol li{
+}
+
+ul {
+}
+
+ul li{
+}
+
+/* 代码块 */
+pre {
+	border-radius: 5px;
+	background: #262727;
+}
+
+code {
+	color: #F56C6C;
+	background: #262727;
+	border-radius: 5px;
+}
+
+pre code{
+	color: white;
+}
+
+/* 图片 */
+img {
+	max-width: 100%;
+	width: auto;
+	margin: 0 auto;
+}
+
+/* 表格 */
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table tr th{
+	margin: 0;
+	border: 1px solid white;
+}
+
+table tr td {
+	margin: 0;
+	border: 1px solid white;
+}
