@@ -1,13 +1,14 @@
 # CoolMark🔥🔥🔥
 
-**一款小型MarkDown编辑器，使用`Monokai`风格制作**<br>
-**编辑`markdown`和`css`时可实时刷新用于显示的html内容**
+**一款小型MarkDown编辑器，使用 `Monokai` 风格制作**<br>
+**编辑 `markdown` 和 `css` 时可实时刷新用于显示的html内容**
 
-编写配置:
+*软件依靠python进行markdown转义,部分markdown转为html存在不足,欢迎各位修改讨论*
 
 |QT|QT6.5.3 msvc2019_64|
 |--|--|
 |Visual Studio|Visual Studio 2022|
+---
 
 ## 使用教程
 
@@ -38,9 +39,9 @@
   windeployqt CoolMark.exe
   ```
 
-## 介绍
+## 数学公式编辑
 
-markdown转义为html依靠python的`markdown`库实现,且加入了`mdx_math`使其可以解析数学公式
+markdown转义为html依靠python的 `markdown` 库实现,且加入了 `mdx_math` 使其可以解析数学公式
 
 在主程序中对于`html`文件的<head>部分,引入
 ```html
@@ -52,3 +53,21 @@ markdown转义为html依靠python的`markdown`库实现,且加入了`mdx_math`�
 效果展示:
 
 ![数学公式效果图](images/math.jpg)
+
+## 备注
+
+`CSS` 每次编写都会进行保存
+  
+本意是让各位可以自定义独属于自己的样式表,并在下一次启动程序时直接用自己写好的样式表
+
+欢迎各路大佬自由发挥艺术天赋,打造自己的markdown主题搭配
+
+## 程序快捷键:
+
+|快捷键|功能|
+|--|--|
+|Ctrl O|打开markdown文件|
+|Ctrl S|保存markdown文件|
+|Ctrl L|打开临时html到浏览器|
+|F12|清空markdown编辑器|
+|F10|导出PDF文件|
