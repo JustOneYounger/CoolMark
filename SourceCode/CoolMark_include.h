@@ -1,0 +1,19 @@
+#pragma once
+#include "qevent.h"
+//#include <QGraphicsOpacityEffect>
+#include "qsplitter.h"
+#include "qdir.h"
+#include "qwebengineview.h"
+#include <qwebenginesettings.h>
+#include <qfiledialog.h>
+#include <qshortcut.h>
+#include <qkeysequence.h>
+#include "qprinter.h"
+#include "qpainter.h"
+#include "qtextdocument.h"
+#include "qpagesize.h"
+#include "qdesktopservices.h"
+
+#include "CoolMark_Editer.h"
+#include "CoolMark_Style_Editer.h"
+#include "FilesThread.h"
