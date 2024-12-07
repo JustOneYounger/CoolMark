@@ -3,6 +3,9 @@
 **一款小型MarkDown编辑器，使用 `Monokai` 风格制作**<br>
 **编辑 `markdown` 和 `css` 时可实时刷新用于显示的html内容**
 
+### 下载链接:https://pan.baidu.com/s/1MLJcyVxg9VXN79F_fM8pxA?pwd=cool
+### 密码:cool
+
 *软件依靠python进行markdown转义,部分markdown转为html存在不足,欢迎各位修改讨论*
 
 |QT|QT6.5.3 msvc2019_64|
@@ -10,34 +13,17 @@
 |Visual Studio|Visual Studio 2022|
 ---
 
-## 使用教程
+## 文件介绍
 
-* 1.新建一个文件夹,将 `CoolMark.exe`, `python`, `coolmark_style.css`, `markdown.ico` 放到该文件夹内
+- 1.Resources内为资源文件
 
-  形成如下结构样式
-  
-  ```
-  - 根目录文件夹
-    - python
-      - MarkDownToHtml.py
-    - coolmark_style.css
-    - markdown.ico
-    - CoolMark.exe
-  ```
+**包括 `MarkDownToHtml.py` , `coolmark_style.css` 和程序运行图标( `MarkDownToHtml.py` 经过 `pyinstaller` 编译后即可在程序内使用)**
 
-* 2.在python文件夹内,打开终端,使用 `pyinstaller` 编译 `MarkDownToHtml.py` 文件
+** `MarkDownToHtml.py` 的使用方式为 `MarkDownToHtml.exe [inputfile] [outputfile]` **
 
-  ```besh
-  pip install pyinstaller
-  pyinstaller MarkDownToHtml.py
-  ```
+- 2.SourceCode内为程序源码
 
-* 3.使用QT的MSVC打包工具,QT 6.5.3 (MSVC 2019 64-bit)进行打包
-
-  ```besh
-  cd 存放CoolMark.exe的文件夹位置
-  windeployqt CoolMark.exe
-  ```
+**在Visual Studio 2022内新建一个QT工程后可加入并执行(确保工程文件中可以正确编译执行所有文件,且对于QT启用 `QWebEngine` 和 `QWebEngineWidgets` )**
 
 ## 数学公式编辑
 
