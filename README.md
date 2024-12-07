@@ -3,7 +3,7 @@
 **一款小型MarkDown编辑器，使用 `Monokai` 风格制作**<br>
 **编辑 `markdown` 和 `css` 时可实时刷新用于显示的html内容**
 
-#### 可执行软件下载链接:https://pan.baidu.com/s/1MLJcyVxg9VXN79F_fM8pxA?pwd=cool 密码:cool
+#### 可执行软件下载链接:https://www.123684.com/s/LKlZTd-ZmIvd  下载备用链接:https://www.123865.com/s/LKlZTd-ZmIvd
 
 *软件依靠python进行markdown转义,部分markdown转为html存在不足,欢迎各位修改讨论*
 
