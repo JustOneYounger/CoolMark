@@ -3,8 +3,7 @@
 **一款小型MarkDown编辑器，使用 `Monokai` 风格制作**<br>
 **编辑 `markdown` 和 `css` 时可实时刷新用于显示的html内容**
 
-### 下载链接:https://pan.baidu.com/s/1MLJcyVxg9VXN79F_fM8pxA?pwd=cool
-### 密码:cool
+#### 可执行软件下载链接:https://pan.baidu.com/s/1MLJcyVxg9VXN79F_fM8pxA?pwd=cool 密码:cool
 
 *软件依靠python进行markdown转义,部分markdown转为html存在不足,欢迎各位修改讨论*
 
@@ -15,15 +14,17 @@
 
 ## 文件介绍
 
-- 1.Resources内为资源文件
+- **1.Resources内为资源文件**
 
-**包括 `MarkDownToHtml.py` , `coolmark_style.css` 和程序运行图标( `MarkDownToHtml.py` 经过 `pyinstaller` 编译后即可在程序内使用)**
+包括 `MarkDownToHtml.py` , `coolmark_style.css` 和程序运行图标( `MarkDownToHtml.py` 经过 `pyinstaller` 编译后即可在程序内使用)
 
-** `MarkDownToHtml.py` 的使用方式为 `MarkDownToHtml.exe [inputfile] [outputfile]` **
+`MarkDownToHtml.py` 的使用方式为 `MarkDownToHtml.exe [inputfile] [outputfile]`
 
-- 2.SourceCode内为程序源码
+- **2.SourceCode内为程序源码**
 
-**在Visual Studio 2022内新建一个QT工程后可加入并执行(确保工程文件中可以正确编译执行所有文件,且对于QT启用 `QWebEngine` 和 `QWebEngineWidgets` )**
+在Visual Studio 2022内新建一个QT工程后可加入并执行(QT启用 `QWebEngine` 和 `QWebEngineWidgets` )
+
+确保vs项目可以正确编译并执行所有文件
 
 ## 数学公式编辑
 
