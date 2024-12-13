@@ -5,8 +5,10 @@
 
 **CoolMark2.0现已更新,CoolMark2.0地址:https://github.com/JustOneYounger/CoolMark2.0**
 
-- 可执行软件下载链接:https://www.123684.com/s/LKlZTd-ZmIvd
-- 下载备用链接:https://www.123865.com/s/LKlZTd-ZmIvd
+- **可执行软件下载链接:** https://www.123684.com/s/LKlZTd-ZmIvd
+- **下载备用链接:** https://www.123865.com/s/LKlZTd-ZmIvd
+- **CoolMark2.0 可执行软件下载链接**: [https://www.123684.com/s/LKlZTd-ZmIvd](https://www.123684.com/s/LKlZTd-2fIvd)
+- **CoolMark2.0 下载备用链接**: [https://www.123865.com/s/LKlZTd-ZmIvd](https://www.123865.com/s/LKlZTd-2fIvd)
 
 *软件依靠python进行markdown转义,部分markdown转为html存在不足,欢迎各位修改讨论*
 
